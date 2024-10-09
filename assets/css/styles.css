@@ -24,7 +24,7 @@ article{
 }
 
 .other_conteiner{
-    background-color: rgb(209, 211, 85);
+    background-color: rgba(108, 109, 62, 0.993);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
