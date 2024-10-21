@@ -8,9 +8,9 @@ body{
 
 @media (max-width: 767px) {
     body {
-        background-color: rgb(61, 55, 55);
-        width: 767;
-    }
+        background-color: rgb(80, 72, 72);
+        width: 767px;
+    }}
 
 article{
     width: 500px;
