@@ -6,6 +6,12 @@ body{
     color: rgb(255, 255, 255);
 }
 
+@media (max-width: 767px) {
+    body {
+        background-color: rgb(61, 55, 55);
+        width: 767;
+    }
+
 article{
     width: 500px;
     background-color: rgb(94, 64, 44);
