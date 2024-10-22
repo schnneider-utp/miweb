@@ -9,7 +9,7 @@ body{
 @media (max-width: 767px) {
     body {
         background-color: rgb(80, 72, 72);
-        width: 767px;
+        width: 624px;
     }
     main{
         width: 624px;
