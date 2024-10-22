@@ -11,12 +11,21 @@ body{
         background-color: rgb(80, 72, 72);
         width: 767px;
     }
-    .new-conteiner{
-        justify-content: space-around;
-        margin-bottom: 24px;
+    main{
+        width: 624px;
     }
-    selection {
-        padding: auto;
+    .cosa {
+        padding: 24px;
+    }
+    header{
+        width: 767px;
+    }
+    .img1{
+        width: 624px;
+        object-fit: cover;
+    }
+    footer{
+        width: 624px;
     }
 }
 
