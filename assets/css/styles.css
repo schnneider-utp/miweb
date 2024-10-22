@@ -10,37 +10,6 @@ body{
     padding: 24px;
 }
 
-@media (max-width: 767px) {
-    body {
-        background-color: rgb(0, 0, 0);
-        width: 100%;
-        color: white
-    }
-    main{
-        width: 100%;
-    }
-    header{
-        width: 100%;
-    }
-    .img1{
-        width: 100%;
-        object-fit: cover;
-    }
-    footer{
-        width: 550px;
-    }
-    .papa_other_conteiner{
-        text-align: center;
-    }
-    header h1{
-        text-align: center;
-    }
-    article {
-        width: 100%;
-    }
-
-}
-
 .cosa {
     padding: 24px;
 }
@@ -130,4 +99,43 @@ footer{
   .btn:hover::before {
     width: 160%;
   }
-  
+ 
+  @media (max-width: 767px) {
+    body {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        color: white
+    }
+    main{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    .img1{
+        width: 100%;
+        object-fit: cover;
+    }
+    footer{
+        width: 100%;
+    }
+    .papa_other_conteiner{
+        text-align: center;
+    }
+
+    .papa_other_conteiner img{
+        width: 100%;
+    }
+
+    header h1{
+        text-align: center;
+    }
+    article {
+        width: 100%;
+    }
+
+    article img {
+        width: 100%;
+    }
+
+}
