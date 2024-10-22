@@ -1,37 +1,49 @@
 body{
-    background-color: black;
+    background-color: rgb(245, 245, 245);
     margin-right: auto;
     margin-left: auto;
     width: 1200px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.titulos{
+    padding: 24px;
 }
 
 @media (max-width: 767px) {
     body {
-        background-color: rgb(80, 72, 72);
-        width: 624px;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        color: white
     }
     main{
-        width: 624px;
-    }
-    .cosa {
-        padding: 24px;
+        width: 100%;
     }
     header{
-        width: 624px;
+        width: 100%;
     }
     .img1{
-        width: 624px;
+        width: 100%;
         object-fit: cover;
     }
     footer{
         width: 550px;
     }
+    .papa_other_conteiner{
+        text-align: center;
+    }
+    header h1{
+        text-align: center;
+    }
+}
+
+.cosa {
+    padding: 24px;
 }
 
 article{
     width: 500px;
-    background-color: rgb(94, 64, 44);
+    background-color: rgb(119, 136, 153);
     margin-bottom: 24px;
     padding: 24px 36px;
     color: black;
@@ -46,13 +58,17 @@ article{
     justify-content: space-between;
 }
 
+.papa_other_conteiner{
+    background-color: rgb(59, 87, 114);
+    padding: 24px;
+    color: black;
+    
+}
 .other_conteiner{
-    background-color: rgba(183, 184, 123, 0.993);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 24px 36px;
-    color: black;
 }
 
 footer{
