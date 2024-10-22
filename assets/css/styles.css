@@ -13,7 +13,10 @@ body{
     }
     .new-conteiner{
         justify-content: space-around;
-        margin: auto;
+        margin-bottom: 24px;
+    }
+    selection {
+        padding: auto;
     }
 }
 
